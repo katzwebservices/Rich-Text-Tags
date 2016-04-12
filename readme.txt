@@ -1,9 +1,9 @@
 === Rich Text Tags ===
-Contributors: katzwebdesign
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=zackkatz%40gmail%2ecom&item_name=Rich%20Text%20Tags&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
+Contributors: katzwebdesign,katzwebdesign
+Donate link: https://gravityview.co
 Tags: tag, tags, taxonomy, taxonomies, category, categories, category description, rich text category, editor, rich text, description, tag description, taxonomy description, rich text, wysiwyg, tinyMCE, SEO, search engine optimization, terms, bio, biography, user, user data, user description
 Requires at least: 3.3
-Tested up to: 3.6
+Tested up to: 4.5
 Stable tag: trunk
 
 The Rich Text Tags Plugin allows you to edit tag, category, and taxonomy descriptions using Wordpress' built in WYSIWYG editor.
@@ -13,9 +13,10 @@ The Rich Text Tags Plugin allows you to edit tag, category, and taxonomy descrip
 ### A TinyMCE Editor for Tags, Categories, and Taxonomies ###
 The Rich Text Tags Plugin allows you to edit tag descriptions, category descriptions, and taxonomy descriptions using Wordpress' built in rich-text editor. Switch between WYSIWYG and HTML editing modes with the click of a link. Use the WordPress uploader to insert images from your computer or site's Media Library.
 
-Use the WordPress functions `tag_description()` and `category_description()` in your theme to show the descriptions. To learn how to show taxonomy descriptions, <a href="http://www.seodenver.com/rich-text-tags/" rel="nofollow">read more on the plugin page</a>.
+Use the WordPress functions `tag_description()` and `category_description()` in your theme to show the descriptions. To learn how to show taxonomy descriptions, <a href="https://katz.co/rich-text-tags/" rel="nofollow">read more on the plugin page</a>.
 
-<h4>Features</h4>
+#### Features
+
 * Edit term descriptions with WordPress's built-in WYSIWYG editor
 * Works with custom taxonomies (and custom post types, introduced in WP 3.0)
 * Now supports user biography fields!
@@ -34,6 +35,11 @@ Use the WordPress functions `tag_description()` and `category_description()` in 
 Thanks, it's by <a href="http://www.flickr.com/photos/laurenmanning/5659535988/" rel="nofollow">Lauren Manning</a>.
 
 == Upgrade Notice ==
+
+= 1.8 on April 11, 2016 =
+
+* Added compatibility with WordPress 4.5
+* Fixed translations
 
 = 1.7.3 = 
 * Fixed "Undefined variable" PHP warning <a href="http://wordpress.org/support/topic/plugin-rich-text-tags-debug-error-in-your-plugin">referenced here</a>
