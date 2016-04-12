@@ -6,6 +6,7 @@ Description: This plugin offers rich text editing capabilities for descriptions 
 Author: Katz Web Services, Inc.
 Version: 1.8
 Author URI: https://katz.co
+Text Domain: rich-text-tags
 Domain Path: languages
 */
 
@@ -31,9 +32,9 @@ add_action('init', 'kws_rich_text_tags', 9999);
 function kws_rich_text_tags() {
 
 	global $wpdb, $user, $current_user, $pagenow, $wp_version;
-	
-	load_plugin_textdomain( 'rich-text-tags', false, '/rich-text-tags/languages' ); // I18n
-	
+
+	load_plugin_textdomain( 'rich-text-tags', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' ); // I18n
+
 	// ADD EVENTS
 	if( user_can_richedit() && in_array( $pagenow, array( 'edit-tags.php', 'categories.php', 'media.php', 'term.php', 'profile.php', 'user-edit.php' ) ) ) {
 
